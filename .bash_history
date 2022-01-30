@@ -359,3 +359,26 @@ git add shaikh.html
 gitls
 git ls
 ls lart
+echo "# .git-config" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:shaikhejaj/.git-config.git
+git push -u origin main
+git push
+git status
+git add --all
+git status
+git add modified:   .bash_history
+        modified:   .gitconfig
+clear
+git branch master
+git master main
+git branch main
+git checkout -f
+git branch -m
+git branch bhai
+git checkout
+git checkout -f
+git add moon.html
